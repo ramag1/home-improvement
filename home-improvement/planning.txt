@@ -1,0 +1,38 @@
+App
+    H1
+    Filter Bar
+        Filter Modal
+    Images - grid
+        Image
+    Left slide
+    Right slide
+
+
+////////////////////////////MVP///////////////////////////
+Faithfully reproduce mockup- STATIC/limited functionality
+Filter Bar:
+    Get Modal to appear
+Catalog Grid:
+    Get images placed in intended grid (1 large/2 small)
+    Get Heart/Favorites Icon to appear
+Sliders:
+    Get slider Icons to appear
+Psuedo-code functionality of all buttons
+
+/////////////////////////STRETCH////////////////////
+Catalog Grid:
+    Responsive hearts
+
+Filter Bar:
+    Getting stars to appear in modal 
+    
+Catalog Grid/Sliders:
+    Carousel images shifting to next page as sliders are selected
+
+
+
+/////////////////////////EXTRA STRETCH////////////////////
+
+Filter Bar:
+    Responsive modal to ensure star selection is responsive to product review data 
+    Ensure data.json call is responsive to filter adjustments
