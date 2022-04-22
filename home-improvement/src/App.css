@@ -4,11 +4,13 @@
   width: 100vw;
   display: grid;
   grid-template-columns: .25fr 3fr .25fr;
-  grid-template-rows: .25fr .25fr 1fr;
+  grid-template-rows: .1fr .1fr 1fr;
+  background-color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
 }
 .app__header{
   grid-row: 1;
-  grid-column: 1/span 3;
+  grid-column: 2/span 2;
 }
 
 .app__filterbar{

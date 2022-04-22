@@ -10,11 +10,12 @@ App
 
 ////////////////////////////MVP///////////////////////////
 Faithfully reproduce mockup- STATIC/limited functionality
-Filter Bar:
-    Get Modal to appear
 Catalog Grid:
     Get images placed in intended grid (1 large/2 small)
+    Set up local API call or leverage local json file
     Get Heart/Favorites Icon to appear
+Filter Bar:
+    Get Modal to appear
 Sliders:
     Get slider Icons to appear
 Psuedo-code functionality of all buttons

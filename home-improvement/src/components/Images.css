@@ -1,55 +1,69 @@
 .images__container {
    display: grid; 
    height: 100%;
-
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr .01fr .01fr 1fr 1fr;
    grid-template-rows: 1fr .75fr 1fr;
 }
 
 .images__img1 {
     grid-row: 1/span 2;
     grid-column:1/ span 2;
-    background-image: url(../../public/00002_E_cimage.jpg);
+    background-image: url(../../public/images/00002_E_cimage.jpg);
     background-size: cover;
     background-position: center;
+    margin: 1em .5em 1em 1em;
+
 }
 
 .images__img2 {
     grid-row: 3;
     grid-column:1;
-    background-image: url(../../public/00003_E_cimage.jpg);
+    background-image: url(../../public/images/00003_E_cimage.jpg);
     background-size: cover;
     background-position: center;
+    margin: 1em .5em 1em 1em;
+    
 }
 
 .images__img3 {
     grid-row: 3;
     grid-column:2;
-    background-image: url(../../public/00004_E_cimage.jpg);
+    background-image: url(../../public/images/00004_E_cimage.jpg);
     background-size: cover;
     background-position: center;
+    margin: 1em .5em 1em 1em;
 }
 
 .images__img4 {
     grid-row: 1;
-    grid-column:3;
-    background-image: url(../../public/00007_E_cimage.jpg);
+    grid-column:5;
+    background-image: url(../../public/images/00007_E_cimage.jpg);
     background-size: cover;
     background-position: center;
+    margin: 1em 1em 1em .7em;
 }
 
 .images__img5 {
     grid-row: 1;
-    grid-column:4;
-    background-image: url(../../public/00009_E_cimage.jpg);
+    grid-column:6;
+    background-image: url(../../public/images/00009_E_cimage.jpg);
     background-size: cover;
     background-position: center;
+    margin: 1em 1em 1em .5em;
 }
 
 .images__img6 {
     grid-row: 2 /span 2;
-    grid-column:3/span 2;
-    background-image: url(../../public/00010_E_cimage.jpg);
+    grid-column:5/span 2;
+    background-image: url(../../public/images/00010_E_cimage.jpg);
     background-size: cover;
     background-position: center;
+    margin: 1em 1em 1em .7em;
 }
+.images__border {
+    grid-row: 1/span 3;
+    grid-column: 4;
+    border-left: 2px lightgray solid;
+}
+
+/* .icon {position:fixed;right:0;top:-15px} */

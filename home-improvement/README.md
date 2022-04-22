@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Environment setup
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Note: 
+- Node v8.9.4 and npm v5.6.0 are used for development.
 
-## Available Scripts
+* Mac:
+ 1. Install Node (https://nodejs.org/en/download/)
+ 2. On your terminal, `cd` into the `home-improvement` directory
+ 2. Initialize node modules by running `npm install` in the terminal
+ 3. Start the server using `npm run start` in the terminal
+ 4. Open browser and browse to `http://localhost:8080`
 
-In the project directory, you can run:
+* Windows:
+ 1. Install Node (https://nodejs.org/en/download/)
+ 2. On your cmd prompt, `cd` into the `home-improvement` directory
+ 2. Initialize node modules by running `npm install` in the cmd prompt
+ 3. Start the server using `npm run start` in the cmd prompt
+ 4. Open browser and browse to `http://localhost:8080`
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instructions:
+ 1. First of all, thank you for taking the time to take our coding challenge. We are excited that you are interested in joining Emprove!
+ 2. You will find data.json in the `src` folder. It contains a list of Design Style, Quality Standard, and Home Area image metadata.
+ 3. Read the data in data.json.
+ 4. A mockup is provided in HomeImprovement-Mockup.png. It has the UI and features that need to be implemented.
+ 5. All images are available in `public/images` folder.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Libraries:
+ 1. Please do not use other JS frameworks, such as JQuery, Angular, etc. React is already available for you to use.
+ 2. Feel free to use CSS frameworks, such as Bootstrap or Material UI. If you choose to use Bootstrap, JQuery is a Bootstrap's dependency. Yes, JQuery is available, but do not use it anywhere in your code.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Objectives for this coding challenge:
+- We would like to see how you structure your code in React and how you code in React.
+- We would like to see if you are able to work with json data, create your own responsive design, and follow the mockup to the detail.
+- Most importantly, we would like you to have fun doing it!

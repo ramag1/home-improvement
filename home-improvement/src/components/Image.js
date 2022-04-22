@@ -1,9 +1,12 @@
 import { useEffect, useState } from 'react';
 import React from 'react';
-import { data } from '../data.json';
+import data from '../data.json';
 import './Images.css';
 
 function Image(props) {
+
+	// Fetch API below in the event we wanted to call from local json data
+
 	//   const [data, setData] = useState([]);
 	// 	const getData = () => {
 	// 		fetch('data.json', {
@@ -25,18 +28,15 @@ function Image(props) {
 	// 		getData();
 	// 	}, []);
 
+
 	return (
 		<div>
-			{/* {data.slice(0,6).map((img) => {
-				return (
-                    <div className='images__img' key={img._id}>
-                        <img
-						src={img.imageKey}>
-					    </img>
-                    </div>
-					
-				);
-			})} */}
+			
+			{/* imported JSON data */}
+
+			{data.data.map((img) => {
+				return <img key={img._id} src={img.imageKey}></img>;
+			})}
 		</div>
 	);
 }
