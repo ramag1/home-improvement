@@ -1,7 +1,6 @@
 App
     H1
     Filter Bar
-        Filter Modal
     Images - grid
         Image
     Left slide
@@ -10,27 +9,26 @@ App
 
 ////////////////////////////MVP///////////////////////////
 Faithfully reproduce mockup- STATIC/limited functionality
+Establish grid layout for main App components
 Catalog Grid:
-    Get images placed in intended grid (1 large/2 small)
+    Get images placed in intended grid (1 large/2 small)- leverage grid layout
     Set up local API call or leverage local json file
     Get Heart/Favorites Icon to appear
 Filter Bar:
     Get icon to appear
-    Get Modal to appear
+    Get dropdown to appear
 Sliders:
     Get slider Icons to appear
-Psuedo-code functionality of all buttons
+Psuedo-code functionality needed for stretch goals
 
 /////////////////////////STRETCH////////////////////
 Catalog Grid:
     Responsive hearts
 
-Filter Bar:
-    Getting stars to appear in modal 
-
-/////////////////////////EXTRA STRETCH////////////////////
 Catalog Grid/Sliders:
     Carousel images shifting to next page as sliders are selected
+
 Filter Bar:
-    Responsive modal to ensure star selection is responsive to product review data 
+    Getting stars to appear in drop down
+    useState to track selection and feed into filter
     Ensure data.json call is responsive to filter adjustments

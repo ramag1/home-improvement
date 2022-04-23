@@ -33,7 +33,7 @@ function Image(props) {
 		<div>
 			{/* imported JSON data
 				ideally this component would be called in the Images component to be rendered */}
-			{/* {data.data.map((img) => {
+			{/* {data.map((img) => {
 				return <img key={img._id} src={img.imageKey}></img>;
 			})} */}
 		</div>
