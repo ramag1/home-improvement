@@ -7,7 +7,7 @@ function Image(props) {
 
 	// Fetch API below in the event we wanted to call from local json data
 
-	//   const [data, setData] = useState([]);
+	//  const [data, setData] = useState([]);
 	// 	const getData = () => {
 	// 		fetch('data.json', {
 	// 			headers: {
@@ -31,12 +31,11 @@ function Image(props) {
 
 	return (
 		<div>
-			
-			{/* imported JSON data */}
-
-			{data.data.map((img) => {
+			{/* imported JSON data
+				ideally this component would be called in the Images component to be rendered */}
+			{/* {data.data.map((img) => {
 				return <img key={img._id} src={img.imageKey}></img>;
-			})}
+			})} */}
 		</div>
 	);
 }

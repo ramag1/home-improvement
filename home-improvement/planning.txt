@@ -15,6 +15,7 @@ Catalog Grid:
     Set up local API call or leverage local json file
     Get Heart/Favorites Icon to appear
 Filter Bar:
+    Get icon to appear
     Get Modal to appear
 Sliders:
     Get slider Icons to appear
@@ -26,14 +27,10 @@ Catalog Grid:
 
 Filter Bar:
     Getting stars to appear in modal 
-    
-Catalog Grid/Sliders:
-    Carousel images shifting to next page as sliders are selected
-
-
 
 /////////////////////////EXTRA STRETCH////////////////////
-
+Catalog Grid/Sliders:
+    Carousel images shifting to next page as sliders are selected
 Filter Bar:
     Responsive modal to ensure star selection is responsive to product review data 
     Ensure data.json call is responsive to filter adjustments

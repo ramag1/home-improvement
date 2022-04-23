@@ -1,0 +1,29 @@
+
+.filterbar__styleselect {
+    border: none;
+    background-color: whitesmoke;
+    text-align: right;
+    width: 5em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    padding-bottom: .5em;
+}
+
+.filterbar__qualityselect {
+    border: none;
+    background-color: whitesmoke;
+    text-align: right;
+    width: 5em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    padding-bottom: .5em;
+}
+
+.filterbar__stylelabel {
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+.filterbar__icon {
+    padding-bottom: 1em;
+
+}

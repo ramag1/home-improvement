@@ -15,23 +15,25 @@ function Images(props) {
 					console.log(img.imageKey)
 					return <img key={img._id} 
 					src={img.imageKey}></img>;
-					
 				})} */}
 
+				{/* add onclick handler to heart icon to switch from outline to full
+				add id to favorites for tracking */}
+
 				<div className='images__img1'>
-					<AiOutlineHeart className='icon' size='1.5em' color='lightgray' />
+					<AiOutlineHeart className='icon' size='1.5em' color='white' />
 				</div>
 				<div className='images__img2'>
-					<AiOutlineHeart className='icon' size='1.5em' color='lightgray' />
+					<AiOutlineHeart className='icon' size='1.5em' color='white' />
 				</div>
 				<div className='images__img3'>
-					<AiOutlineHeart className='icon' size='1.5em' color='lightgray' />
+					<AiOutlineHeart className='icon' size='1.5em' color='white' />
 				</div>
 				<div className='images__img4'>
-					<AiOutlineHeart className='icon' size='1.5em' color='lightgray' />
+					<AiOutlineHeart className='icon' size='1.5em' color='white' />
 				</div>
 				<div className='images__img5'>
-					<AiOutlineHeart className='icon' size='1.5em' color='lightgray' />
+					<AiOutlineHeart className='icon' size='1.5em' color='white' />
 				</div>
 				<div className='images__img6'>
 					<AiFillHeart className='icon' size='1.5em' color='red' />
