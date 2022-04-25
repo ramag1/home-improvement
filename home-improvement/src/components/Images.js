@@ -25,7 +25,7 @@ function Images(props) {
 				})} */}
 
 				{/* Hardcoded solution below: */}
-				
+
 				{/* Example of responsive hearts ternary for functionality */}
 				{/* <div className='images__img1' onClick={handleToggle}> {setFavorite ? (<AiOutlineHeart className='icon' size='1.5em' color='white' /> ) : (<AiFillHeart className='icon' size='1.5em' color='red' /> )}
 				</div>  */}

@@ -1,25 +1,19 @@
-
-.filterbar__styleselect {
-    border: none;
-    background-color: whitesmoke;
-    text-align: right;
-    width: 5em;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    padding-bottom: .5em;
+.app__filterbar{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: .25fr 1fr;
 }
 
-.filterbar__qualityselect {
-    border: none;
-    background-color: whitesmoke;
-    text-align: right;
-    width: 5em;
+button {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    padding-bottom: .5em;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 1.2em;
+    grid-column: 1;
+    grid-row: 1;
 }
 
-.filterbar__stylelabel {
-    font-size: 1em;
-    padding-bottom: 1em;
+.filtermodal__container {
+    grid-column: 2;
+    grid-row: 1;
 }

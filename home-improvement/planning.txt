@@ -1,6 +1,7 @@
 App
     H1
-    Filter Bar
+    Filter Bar - icon (drop down); selected state/filter tags for reference
+        Filter Modal
     Images - grid
         Image
     Left slide
@@ -29,6 +30,14 @@ Catalog Grid/Sliders:
     Carousel images shifting to next page as sliders are selected
 
 Filter Bar:
+    Modal showing and functionaliy to disappear
+    create a filter using the key:value pairs/objects from the seeded json data
+    find by (provide params for filter)
+
+
+
+
+
     Getting stars to appear in drop down
     useState to track selection and feed into filter
     Ensure data.json call is responsive to filter adjustments
